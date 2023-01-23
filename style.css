@@ -44,14 +44,32 @@
   margin: 0 auto;
   width: 100%;
   /* max-width: calc(984px / 1280px) * 100%; */
-  max-width: 984px;
+  max-width: 100vw;
+  padding: 0px 148px;
+  box-sizing: border-box;
 }
 [class*="__block"] {
   margin: 0 auto;
   width: 100%;
   /* max-width: calc(1204 / 1280) * 100%; */
-  max-width: 1184px;
-  /* padding: 0px 15px; */
+  /* max-width: 1184px; */
+  max-width: 100vw;
+  padding: 0px 48px;
+  box-sizing: border-box;
+}
+@media (max-width: 1024px) {
+    [class*="__container"] {
+        margin: 0 auto;
+        max-width: 100vw;
+        padding: 0px 48px;
+        box-sizing: border-box;
+      }
+      [class*="__block"] {
+        margin: 0 auto;
+        max-width: 100vw;
+        padding: 0px 48px;
+        box-sizing: border-box;
+      }
 }
 .img {
   width: 100%;
@@ -115,7 +133,7 @@
 
 /* -------------------INTRO STARTS --------------------------------- */
 .intro {
-  padding: 136px 0px 0px 0px;
+  padding-top: 136px;
 }
 .intro__body {
   max-width: 720px;
@@ -190,7 +208,7 @@
 
 /* -------------------FOTO-ALBUM STARTS --------------------------------- */
 .foto-album {
-  padding: 0;
+  /* padding: 0; */
   display: grid;
   grid-template-columns: repeat(4, minmax(200px, 1fr));
   gap: 16px;
@@ -318,6 +336,11 @@
     text-align: center;
     max-width: 360px;
     margin: 0 auto;
+}
+@media (max-width: 1024px) {
+    .cover__block {
+        padding: 0;
+    }
 }
 /* -------------------COVER ENDS --------------------------------- */
 
