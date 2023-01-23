@@ -282,6 +282,7 @@
 
 /* -------------------FOTO-ALBUM STARTS --------------------------------- */
 .foto-album {
+  margin: 0 auto;
   max-width: 1280px;
   width: 100vw;
   padding: 0px 48px;
@@ -367,6 +368,7 @@
 /* -------------------PLACES ENDS --------------------------------- */
 /* -------------------COVER STARTS --------------------------------- */
 .cover__block {
+  margin: 0 auto;
   max-width: 1280px;
   width: 100vw;
   padding: 0px 48px;
@@ -427,6 +429,7 @@
 
 /* -------------------FOOTER STARTS --------------------------------- */
 .footer {
+  margin: 0 auto;
   display: flex;
   
 }
