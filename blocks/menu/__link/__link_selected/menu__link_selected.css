@@ -1,0 +1,4 @@
+  .menu__link_selected:link {
+    width: 100%;
+    border-bottom: 2px solid #fff;
+  }
