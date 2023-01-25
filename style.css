@@ -60,8 +60,7 @@
 @media (max-width: 768px) {
     [class*="__container"] {
         width: 100vw;
-        /* padding: 0px 24px; */
-        padding: 0px 16px;
+        padding: 0px 24px;
         margin: 0px 0px 0px 0px;
       }
 }
@@ -353,6 +352,7 @@
 @media (max-width: 768px) {
   .article__container {
     width: 100%;
+    box-sizing: border-box;
     padding: 0px 24px;
   }
 }
@@ -369,6 +369,7 @@
 }
 @media (max-width: 768px) {
   .article__body {
+    max-width: 100%;
     padding-top: 88px;
     padding-bottom: 88px;
   }
@@ -457,7 +458,9 @@
 }
 @media (max-width: 768px) {
   .places__container {
-    margin: 88px auto 90px;
+    margin: 88px auto 88px;
+    max-width: 100vw;
+    box-sizing: border-box;
   }
 }
 @media (max-width: 320px) {
@@ -516,7 +519,7 @@
 }
 @media (max-width: 768px) {
   .places:not(:last-child) {
-    margin-bottom: 73px;
+    margin-bottom: 70px;
   }
 }
 @media (max-width: 320px) {
@@ -536,6 +539,7 @@
 }
 @media (max-width: 768px) {
   .places__title {
+    width: 97%;
     font-size: 42px;
     line-height: 110%;
   }
@@ -579,6 +583,11 @@
   letter-spacing: 2px;
   color: #aaa;
 }
+@media (max-width: 768px) {
+  .places__item-text {
+    margin: 0px 0px 13px 0px;
+  }
+}
 .place__link {
   font-size: 18px;
   line-height: 122%;
@@ -602,7 +611,7 @@
 @media (max-width: 768px) {
   .description__text {
     font-size: 16px;
-    line-height: 160%;
+    line-height: 163%;
   }
 }
 @media (max-width: 320px) {
