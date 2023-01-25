@@ -2,7 +2,7 @@
     position: relative;
     display: grid;
     gap: 48px 40px;
-    grid-template-columns: minmax(calc(46.7% - 20px), 460px) minmax(calc(53.3% - 20px), 484px);
+    grid-template-columns: minmax(calc(46.74% - 0px), 460px) minmax(calc(53.25% - 0px), 484px);
     grid-template-areas:
       "title links"
       "img description";
@@ -12,7 +12,7 @@
       position: relative;
       display: grid;
       gap: 48px 32px;
-      grid-template-columns: minmax(calc(47.4% - 16px), 440px) minmax(calc(52.6% - 16px), 456px);
+      grid-template-columns: minmax(calc(47.41% - 0px), 440px) minmax(calc(52.58% - 0px), 456px);
       grid-template-areas:
         "title links"
         "img description";
@@ -23,7 +23,7 @@
       position: relative;
       display: grid;
       gap: 48px 28px;
-      grid-template-columns: minmax(calc(47.2% - 14px), 340px) minmax(calc(52.8% - 14px), 352px);
+      grid-template-columns: minmax(calc(47.22% - 0px), 340px) minmax(calc(52.77% - 0px), 352px);
       grid-template-areas:
         "title links"
         "img description";

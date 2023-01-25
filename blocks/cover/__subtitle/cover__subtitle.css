@@ -9,7 +9,7 @@
 }
 @media (max-width: 768px) {
   .cover__subtitle {
-    margin: 32px auto 0px;
+    margin: 0px auto 0px;
   }
 }
 @media (max-width: 320px) {

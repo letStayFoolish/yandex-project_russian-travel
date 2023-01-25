@@ -6,7 +6,7 @@
   }
   @media (max-width: 1024px) {
     .places__container {
-      max-width: 928px;
+      /* max-width: 928px; */
     }
   }
   @media (max-width: 768px) {
