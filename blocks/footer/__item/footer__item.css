@@ -1,0 +1,31 @@
+.footer__item {
+    font-size: 16px;
+    line-height: 112%;
+    transition: opacity 0.5s ease 0s;
+  }
+  @media (min-width: 320px) and (max-width:720px){
+    .footer__item {
+      font-size: 24px;
+      line-height: 100%;
+    }
+    .footer__item:not(:last-child) {
+      margin-bottom: 32px;
+    }
+  }
+  @media (max-width: 320px) {
+    .footer__item {
+      font-size: 24px;
+      line-height: 100%;
+    }
+    .footer__item:not(:last-child) {
+      margin-bottom: 32px;
+    }
+  }
+  .footer__item:hover {
+      opacity: .5;
+      width: 100%;
+      border-bottom: 2px solid #fff;
+    }
+  .footer__item:not(:last-child) {
+    margin-right: 18px;
+  }

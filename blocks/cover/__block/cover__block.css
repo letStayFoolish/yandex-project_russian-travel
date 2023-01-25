@@ -1,0 +1,12 @@
+.cover__block {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 100vw;
+    padding: 0px 48px;
+    box-sizing: border-box;
+  }
+  @media (max-width: 1024px) {
+    .cover__block {
+        padding: 0;
+    }
+  }

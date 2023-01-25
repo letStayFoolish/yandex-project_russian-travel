@@ -1,0 +1,8 @@
+.article__item {
+    font-family: "Inter-Bold", sans-serif;
+    font-weight: 700;
+  }
+  .article__item span {
+    font-family: "Inter";
+    font-weight: 400;
+  }

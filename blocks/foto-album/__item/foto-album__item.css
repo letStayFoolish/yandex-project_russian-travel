@@ -1,0 +1,4 @@
+.foto-album__item {
+    object-fit: cover;
+    object-position: top left;
+  }

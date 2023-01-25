@@ -1,0 +1,10 @@
+.article__text {
+    line-height: 163%;
+    margin: 40px auto 33px;
+  }
+  @media (max-width: 320px) {
+    .article__text {
+      font-size: 16px;
+      line-height: 1.63;
+    }
+  }

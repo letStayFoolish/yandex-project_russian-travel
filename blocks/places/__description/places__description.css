@@ -1,0 +1,8 @@
+.places__description {
+    grid-area: description;
+  }
+  @media (max-width: 610px) {
+    .places__description {
+      padding-right: 5px;
+    }
+  }

@@ -1,0 +1,17 @@
+.article__container {
+    max-width: 984px;
+    box-sizing:content-box;
+  }
+  @media (max-width: 768px) {
+    .article__container {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 0px 24px;
+    }
+  }
+  @media (max-width: 320px) {
+    .article__container {
+      width: 100%;
+      padding: 0px 16px;
+    }
+  }

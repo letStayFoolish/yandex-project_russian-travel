@@ -1,0 +1,24 @@
+.places__title {
+    grid-area: title;
+    max-width: 460px;
+    width: 100%;
+    font-family: "Inter-Black", sans-serif;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.06;
+    margin: 0;
+  }
+  @media (max-width: 900px) {
+    .places__title {
+      width: 97%;
+      font-size: 42px;
+      line-height: 110%;
+    }
+  }
+  @media (max-width: 610px) {
+    .places__title {
+      font-size: 32px;
+      line-height: 109%;
+      padding: 0px 16px;
+    }
+  }

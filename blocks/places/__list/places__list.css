@@ -1,0 +1,13 @@
+.places__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 0;
+    margin: 0;
+    grid-area: links;
+  }
+  @media (max-width: 610px) {
+    .places__list {
+      padding: 0px 16px;
+    }
+  }

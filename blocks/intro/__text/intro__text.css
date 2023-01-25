@@ -1,0 +1,28 @@
+.intro__text {
+    font-size: 10px;
+    line-height: 1.4;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 5px 0px 0px 0px;
+    margin: 0;
+  }
+  @media (max-width: 863.99px) {
+    .intro__text {
+      padding: 5px 0px 0px 48px;
+    }
+  }
+  @media(max-width: 768px){
+    .intro__text {
+      width: 100vw;
+      padding: 5px 0px 0px 24px;
+      /* position: relative; */
+      /* left: 24px; */
+    }
+  }
+  @media(max-width: 429px){
+    .intro__text {
+      padding: 5px 0px 0px 16px;
+      /* position: relative; */
+      /* left: 16px; */
+    }
+  }
