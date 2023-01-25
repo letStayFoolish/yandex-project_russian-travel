@@ -1,9 +1,14 @@
 .cover__overlay {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background: url(../../../img/cover-trains.jpg);
     background-size: cover;
     max-height: 740px;
-    padding: 243px 0;
+    width: 100%;
+    height: calc((100vw - 96px)/1.6);
+    /* padding: 243px 0; */
     box-sizing: border-box;
 }
 .cover__overlay::after {
@@ -24,18 +29,22 @@
 }
 @media (max-width: 1024px) {
   .cover__overlay {
-    padding: 195px 0;
-  }
+    width: 100%;
+    height: calc(100vw/1.6);
+    }
 }
 @media (max-width: 768px) {
   .cover__overlay {
-    padding: 115px 0;
+    width: 100%;
+    height: calc(100vw/1.6);
   }
 }
 @media (max-width: 320px) {
   .cover__overlay {
-    max-height: 320px;
-    padding: 33px 0;
-    box-sizing: border-box;
+    max-height: 200px;
+    width: 100%;
+    height: calc(100vw/1.6);
+    /* padding: 33px 0; */
+    /* box-sizing: border-box; */
   }
 }
