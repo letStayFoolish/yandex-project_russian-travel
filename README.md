@@ -1,23 +1,26 @@
-# Проект: Путешествие по России
+# RUSSIAN TRAVEL
 
-### Обзор
-* Интро
-* Figma
-* Картинки
+#### By _**Nemanja Karaklajic**_
 
-**Интро**
+#### A simple HTML/CSS single-page article about _**traveling through the Russia**_
 
-Здесь будет проект о путешествии по России.
-В Фигме мы разместили макет, в котором видно, как проект должен выглядеть на самых распространённых разрешениях экранов.
-Этот проект сложнее предыдущих, постарайтесь уделить ему больше времени.
+## Technologies Used
 
-**Figma**
+* _HTML_
+* _CSS_
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+## Description
 
-**Картинки**
+_In this project you can learn and see many places to visit while staying or traveling through Russia._
 
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
+# This project is also hosted at
+- [GitHub](https://github.com/letStayFoolish/yandex-project_russian-travel)
 
-Удачи!
+
+## License
+
+````
+This project is licensed under the Yandex Practicum License.
+````
+
+Copyright (c) _2023_ _Nemanja Karaklajic_
